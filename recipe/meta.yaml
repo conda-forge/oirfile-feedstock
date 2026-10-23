@@ -1,5 +1,5 @@
 {% set name = "oirfile" %}
-{% set version = "2026.9.6" %}
+{% set version = "2026.10.22" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8e4e65d308246d7dd289de2a857a08e8252626cbe2084ab734c100379bd6f56e
+  sha256: ea0c668246598589e3ceb9a7c2182998277ff80547bc362df51a1ec4e6f4f9f2
 
 build:
   number: 0
